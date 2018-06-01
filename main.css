@@ -1,16 +1,16 @@
 /** {border: 2px solid black;}*/
 body {margin:0;}
 .cabecera {
-width: 100%;
-background-color: white;
-font-family: 'Rubik', sans-serif;
+  width: 100%;
+  background-color: white;
+  font-family: 'Rubik', sans-serif;
 }
 .menu {
-width: 100%;
-color:#4a4a4a;
-text-align: center;
-text-transform: uppercase;
-color: #4a4a4a;
+  width: 100%;
+  color:#4a4a4a;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4a4a4a;
 }
 
 .menu :link, .menu :visited, .menu :active{
@@ -19,46 +19,45 @@ color: #4a4a4a;
 }
 
 .lista{
-padding: 0px;
-margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .menu-li{
-display: inline-block;
-margin-top: 10px;
-font-size: 16px;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
 }
 
 .logo {
-padding-top: 10px;
-display: block;
-margin:0 auto;
+  padding-top: 10px;
+  display: block;
+  margin:0 auto;
 }
 
 .cuerpo{
-height: 400px;
-text-align: center;
-background-color: #3CDBC0;
-font-size: 30px;
-color:white;
-font-family: 'Rubik', sans-serif;
+  height: 400px;
+  text-align: center;
+  background-color: #3CDBC0;
+  font-size: 30px;
+  color:white;
+  font-family: 'Rubik', sans-serif;
 }
 .h1{
-padding-top: 70px;
+  padding-top: 70px;
 }
 
-  @media all and (min-width:768px) {
+@media all and (min-width:768px) {
 
-
-    .logo {
+  .logo {
     padding-top: 10px;
     display: inline;
     margin:0;
-    }
+  }
 
-    .menu-li{
+  .menu-li{
     display: inline;
     text-align: right;
-    }
+  }
 
 }
