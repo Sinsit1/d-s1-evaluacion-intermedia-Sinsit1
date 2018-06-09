@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.cabecera {
+  width: 100%;
+  background-color: white;
+}
+
+.enlace-logo {
+  display: flex;
+}
+
+.logo {
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.menu {
+  color: #4a4a4a;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.menu :link,
+.menu :visited,
+.menu :active {
+  text-decoration: none;
+  color: #54585a;
+}
+
+.lista {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 16px;
+}
+
+.menu-li {
+  display: flex;
+}
+
+.enlace-menu {
+  padding: 10px 10px 13px 10px;
+}
+
+.cuerpo {
+  height: 100vh;
+  background-color: #3cdbc0;
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 30px;
+}
+
+@media all and (min-width: 768px) {
+  .cabecera {
+    display: flex;
+  }
+
+  .lista {
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+  }
+
+  .logo {
+    padding-top: 10px;
+    margin: 0;
+  }
+
+  .h1 {
+    font-size: 40px;
+    width: 240px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
