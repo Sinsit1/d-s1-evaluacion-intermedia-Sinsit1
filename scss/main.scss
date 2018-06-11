@@ -53,7 +53,6 @@ body {
 }
 
 .cuerpo {
-  height: 100vh;
   background-color: #3cdbc0;
   font-size: 30px;
   color: #fff;
@@ -65,7 +64,11 @@ body {
 
 .h1 {
   font-size: 30px;
-  width: 200px;
+  width: 220px;
+}
+
+.wrapper {
+  height: 100vh;
 }
 
 //////////* MEDIAQUERIES *////////////
