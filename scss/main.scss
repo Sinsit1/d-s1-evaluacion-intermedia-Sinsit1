@@ -56,9 +56,6 @@ body {
   font-size: 30px;
   color: #fff;
   font-family: 'Rubik', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .h1 {
@@ -69,6 +66,9 @@ body {
 .wrapper {
   height: 90vh;
   background-color: #3cdbc0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 //////////* MEDIAQUERIES *////////////
